@@ -1,0 +1,61 @@
+    1  exit
+    2  mkdir devops
+    3  cd devops
+    4  pwd
+    5  sudo apt update
+    6  ls
+    7  pwd
+    8  ls -all
+    9  ls -a
+   10  cd ..
+   11  cd devops
+   12  cd ~
+   13  mkdir devops
+   14  cd devops
+   15  pwd
+   16  ls -l
+   17  mkdir test
+   18  touch devops.txt
+   19  ls
+   20  echo "Hello devops" > devops.txt
+   21  cat devops.txt
+   22  echo "Hi!" > 1.txt
+   23  echo "DevOps" > 2.txt
+   24  cat 1.txt 2.txt > s.txt
+   25  cat s.txt
+   26  echo "Hi!" > 3.txt
+   27  cat 3.txt >> s.txt
+   28  cat s.txt
+   29  cat 1.txt 2.txt >> s.txt
+   30  cat s.txt
+   31  cp devops.txt hi.txt
+   32  ls
+   33  mv hi.txt hello.txt
+   34  ls
+   35  rm s.txt
+   36  rm 1.txt 2.txt 3.txt
+   37  ls
+   38  rm hello.txt
+   39  cd..
+   40  rmdir test
+   41  pwd
+   42  rm test/devops.txt
+   43  rmdir test
+   44  ls
+   45  whoami
+   46  id
+   47  who
+   48  uname -a
+   49  cat /etc/os-release
+   50  df -h
+   51  free -h
+   52  clear
+   53  history
+   54  cat s.txt
+   55  ls
+   56  ls -a
+   57  wsl
+   58  cd ~/devops
+   59  pwd
+   60  ls -la
+   61  history > history.txt
