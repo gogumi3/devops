@@ -131,5 +131,5 @@ def readyz():
 
 
 if __name__ == "__main__":
-    print(f"[INFO] {APP_TITLE} 시작 — http://0.0.0.0:{PORT}", flush=True)
+    print(f"[INFO] [v3] {APP_TITLE} 시작 - http://0.0.0.0:{PORT}", flush=True)
     app.run(host="0.0.0.0", port=PORT)
